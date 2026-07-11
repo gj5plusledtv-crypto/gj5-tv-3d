@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GJ5 PLUS 3D TV</title>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<style>
+
+html,body{
+margin:0;
+width:100%;
+height:100%;
+background:#ffffff;
+overflow:hidden;
+}
+
+model-viewer{
+width:100%;
+height:100vh;
+background:transparent;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<model-viewer
+
+src="./game_ready_free_livingroom_tv.glb"
+
+camera-controls
+
+touch-action="pan-y"
+
+auto-rotate
+
+rotation-per-second="20deg"
+
+shadow-intensity="1"
+
+exposure="1"
+
+environment-image="neutral"
+
+interaction-prompt="none"
+
+camera-orbit="0deg 75deg 2.5m"
+
+field-of-view="30deg">
+
+</model-viewer>
+
+</body>
+</html>
